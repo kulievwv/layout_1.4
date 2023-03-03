@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('./fonts/TTLakes-Light.woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('./fonts/TTLakes-Regular.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('./fonts/TTLakes-Medium.woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('./fonts/TTLakes-DemiBold.woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Lakes';
+    src: url('./fonts/TTLakes-Bold.woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    font-family: 'TT Lakes', "Arial", sans-serif;
+    background-color: #F8F8F8;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.sidebar__header {
+    display: flex;
+    align-items: center;
+    height: 86px;
+    padding: 0 24px;
+    gap: 16px;
+}
+
+.sidebar {
+    height: 100vh;
+    width: 320px;
+    box-shadow: -80px 0 150px 30px #808080;
+    display: block;
+    position: relative;
+}
+
+.sidebar__header>.sidebar__close,
+.sidebar__header>.sidebar__logo {
+    justify-content: flex-start;
+}
+
+.sidebar__header>.sidebar__search {
+    margin-left: auto;
+}
+
+.sidebar__caption {
+    padding-left: 24px;
+    background: no-repeat url("images/highlight.svg");
+    background-size: 4px 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    color: #7E7E82;
+}
+
+.sidebar__main {
+    margin: 32px 90px 32px 0;
+}
+
+.sidebar__navigation {
+    display: block;
+}
+
+.sidebar__navigation>div {
+    margin: 32px 0px 32px 24px;
+    font-size: 16px;
+    Line-height: 24px;
+    font-weight: 500;
+}
+
+.sidebar__footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.sidebar__buttons {
+    display: flex;
+    padding: 16px 24px;
+    gap: 16px;
+}
+
+.sidebar__email {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 0 12px 24px;
+}
+
+.sidebar__number {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 12px 0 40px 24px;
+}
+
+.sidebar__language {
+    margin: 32px 24px;
+    display: flex;
+    gap: 7px;
+    font-weight: 600;
+}
+
+.sidebar__ru {
+    color: #7E7E82;
+}
