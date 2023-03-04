@@ -132,8 +132,9 @@ body {
     color: #7E7E82;
 }
 
-@media (max-height: 800px) {
+@media (max-height: 850px) {
     .sidebar {
         overflow: scroll;
+        height: 850px;
     }
 }
