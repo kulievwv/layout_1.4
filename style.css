@@ -131,3 +131,9 @@ body {
 .sidebar__ru {
     color: #7E7E82;
 }
+
+@media (max-height: 800px) {
+    .sidebar {
+        overflow: scroll;
+    }
+}
